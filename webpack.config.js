@@ -7,7 +7,7 @@ const config = {
       path.resolve('./node_modules')
     ]
   },
-  entry: ['babel-polyfill', '../renderers/dom'],
+  entry: ['babel-polyfill', './lib/renderers/dom.js'],
   output: {
     path: path.resolve(__dirname, 'public'),
     filename: 'bundle.js'
